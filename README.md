@@ -24,7 +24,7 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-c
 
 run docker
 ```bash
-sudo docker-compose up -d --build
+docker-compose up -d --build
 ```
 
 
@@ -32,7 +32,7 @@ sudo docker-compose up -d --build
 ```
  cd ./src
  
- sudo docker-compose run --rm composer create-project laravel/laravel .
+ docker-compose run --rm composer create-project laravel/laravel .
 ```
 
 
@@ -42,5 +42,5 @@ If you have a port error when running, you should edit the docker-compose.yml fi
 
 for use composer or npm or artisan or ... use like this command
 ```bash
-sudo docker-compose run --rm composer
+docker-compose run --rm composer
 ```
